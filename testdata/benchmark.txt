@@ -1,0 +1,574 @@
+# Random test case.
+#
+# allow, foo, /abolish/davis/simmers
+# allow, foo, /accelerometers/fickleness/suckling/metabolic
+# allow, foo, /acknowledgers/services
+# allow, foo, /alkalis/bathes
+# allow, foo, /anatomically/flagstone/numerable/hydrofluoric/steep
+# allow, foo, /annotate
+# allow, foo, /antiquarian/abbreviate
+# allow, foo, /aqueous/reabbreviated/dionysus
+# allow, foo, /archdioceses/metaphor
+# allow, foo, /astrology/conferee
+# allow, foo, /atheism/durable/baffle/spectroscope
+# allow, foo, /avouch/glaze/evocate/effluvium/field
+# allow, foo, /barnard/programs
+# allow, foo, /bloodshot/predicating
+# allow, foo, /bloody
+# allow, foo, /bottomed/assessors/overseers/crony
+# allow, foo, /breakers
+# allow, foo, /bruises/credential/prefacing
+# allow, foo, /budgeter/crosses/entertainer/befouled/anemometer
+# allow, foo, /cans/romps/wantonly/morphine
+# allow, foo, /chinch/bawl/totals/reclaimer
+# allow, foo, /choking
+# allow, foo, /chronicles/flagging/area/zurich
+# allow, foo, /civet/consolingly/evaporation
+# allow, foo, /clues/avows/ascends/cdr
+# allow, foo, /collar/deciphered
+# allow, foo, /colombia/bromley/whitman
+# allow, foo, /constructs/rhetoric/camino/edna/nab
+# allow, foo, /convey
+# allow, foo, /crates
+# allow, foo, /damping/billiard/unknowing/bullfrog/mightiest
+# allow, foo, /dawned/fiddlestick/chafing/marie/secession
+# allow, foo, /deaf/paraboloidal
+# allow, foo, /defenestrating
+# allow, foo, /delectable
+# allow, foo, /delegations
+# allow, foo, /denny/competitor
+# allow, foo, /depriving/whosoever/scooby
+# allow, foo, /differentiations/development/pitman/hereford/abhors
+# allow, foo, /dispositions/rejectors/monadic/dazzlingly
+# allow, foo, /enforcible/rebelling/graining/undone
+# allow, foo, /equator/stimulate/moss/articulatory/michaelangelo
+# allow, foo, /ere/bathos/upswing/curtains
+# allow, foo, /estella
+# allow, foo, /evened/expectedly/aureomycin/comptroller
+# allow, foo, /exterior/sagging
+# allow, foo, /fabrics/smelling/envoys/lanthanide/shaves
+# allow, foo, /finny/lets/oakwood/nautilus
+# allow, foo, /foregoing/plantations/connections
+# allow, foo, /foresee/blistering/dioxide/gruffly/disappearances
+# allow, foo, /fractious/plethora/clasping
+# allow, foo, /gasps/actual/lauderdale/spectator/undermines
+# allow, foo, /gentleness/teahouse/yawning/avocado
+# allow, foo, /hamal/hurtle/misuse
+# allow, foo, /healthily/befuddle/transferrers
+# allow, foo, /hereinafter/hardtack/scoria/revenger
+# allow, foo, /honeybee
+# allow, foo, /honor/rehearsing/threats/city/istvan
+# allow, foo, /howell/knight/turnpike
+# allow, foo, /hugging
+# allow, foo, /hustler
+# allow, foo, /imitations/impresses
+# allow, foo, /immigrating/flamboyant/comprised
+# allow, foo, /instances/communicators/spitz/erbium
+# allow, foo, /interrelationships/minutiae
+# allow, foo, /jive/attenuators/sevenfold
+# allow, foo, /job/clamors/thalia/columbus/symposium
+# allow, foo, /labradorite/impenetrability/organization
+# allow, foo, /largeness/deems/underlinings/jerusalem
+# allow, foo, /listened/mainstay/bing
+# allow, foo, /luggage/operative/slanders
+# allow, foo, /mae
+# allow, foo, /manifold/fulfillments
+# allow, foo, /marches/mathieu
+# allow, foo, /marrietta/rose
+# allow, foo, /maturely/dialogues
+# allow, foo, /mcneil/earnestly
+# allow, foo, /milkiness/rinehart/twiner/accosting/argive
+# allow, foo, /misuse
+# allow, foo, /newfoundland/box/posing
+# allow, foo, /nod/whimpers
+# allow, foo, /noon/fore/compared/swayed/grind
+# allow, foo, /obeyed/chug/liberty/taste
+# allow, foo, /olivia/cripple/forgivingly
+# allow, foo, /orbital
+# allow, foo, /oshkosh/penh/stank/maya/item
+# allow, foo, /outlays/emplace
+# allow, foo, /overworking
+# allow, foo, /oxalic/seeing
+# allow, foo, /oysters/attacher
+# allow, foo, /parceled
+# allow, foo, /paternoster/chasms/conditioners/drury
+# allow, foo, /perils/maturation/parameterize/nasty
+# allow, foo, /philosophic/hinder/assessment
+# allow, foo, /phycomycetes/scrub
+# allow, foo, /pinehurst/intuitable
+# allow, foo, /potentiating/portia/conceiving/bisques
+# allow, foo, /puts/entrap/windbreak
+# allow, foo, /qwertzui/beatification/whimper
+# allow, foo, /r/arragon/indeterminately
+# allow, foo, /repayed/breakfasted
+# allow, foo, /repelled/deckings/preyed/brainstorms/counselor
+# allow, foo, /repercussion/arianism/crafty/illumine
+# allow, foo, /reports/townhouse
+# allow, foo, /retainment/yam/countryman/bane/teen
+# allow, foo, /rickettsia/magnificent/biosynthesize
+# allow, foo, /roadblock/helmut/attain
+# allow, foo, /roomed/arteriolosclerosis/woolworth/increasable
+# allow, foo, /rules/benders
+# allow, foo, /run/puffed/inseparable
+# allow, foo, /sandwiches/inadmissibility/decidability/den/recondite
+# allow, foo, /scorpion/sellout/assimilating/battlements/chutes
+# allow, foo, /sepulchral/dominantly
+# allow, foo, /showmen/organizers/oppose
+# allow, foo, /signaling/ac
+# allow, foo, /simply/dislocations/touchier/dedication
+# allow, foo, /spruced/grimm/intelligibility/sociologically/combine
+# allow, foo, /stiffs/cigar/reuse/euphemist/bordered
+# allow, foo, /suns/mt/pickers/diffusers
+# allow, foo, /teleology
+# allow, foo, /titled
+# allow, foo, /tomblike
+# allow, foo, /transconductance
+# allow, foo, /transcribe
+# allow, foo, /triphenylphosphine
+# allow, foo, /twenty/analogy/plumbed/gabardine
+# allow, foo, /typist
+# allow, foo, /unsophisticated
+# allow, foo, /ushered
+# allow, foo, /usurious/israeli/fuzzy/delaware/forewarns
+# allow, foo, /vacationing/abutters/whenever/iberia
+# allow, foo, /violate
+# allow, foo, /whoops/championing/plumpness/sailorly/deadlocked
+# allow, foo, /windmill/provenance/analysts/contentment/hydrofluoric
+# allow, foo, /wings
+# allow, foo, /yellowing/homophobia/paginated/jeopard/coats
+# allow, foo, /youngstown/ardent/beings
+# disallow, foo, /abolition/iniquities/declaring/earthquake/embarcadero/moor
+# disallow, foo, /abolition/physiochemical/competition/earthquake/embarcadero/youngster/jackknife
+# disallow, foo, /accepted/gazelle/id/bricker
+# disallow, foo, /adhesive/inconsiderateness/curb
+# disallow, foo, /adhesive/inconsiderateness/curb/devilishly/renaissance
+# disallow, foo, /adhesive/inconsiderateness/curb/impenetrably/exerts
+# disallow, foo, /adhesive/inconsiderateness/curb/pennsylvania/deciphered
+# disallow, foo, /adhesive/inconsiderateness/curb/volley/gabrielle
+# disallow, foo, /adobe/recommend/articles/purina/martinique
+# disallow, foo, /adverbs/decimating
+# disallow, foo, /adverbs/decimating/heard
+# disallow, foo, /adverbs/decimating/octave/narrowed
+# disallow, foo, /advocated
+# disallow, foo, /advocated/grinning
+# disallow, foo, /advocated/threesome
+# disallow, foo, /aeschylus/fine/awaited/cargill/criticize/thermostat
+# disallow, foo, /agitated/gasohol/clerks/bothers
+# disallow, foo, /agitated/horsely/filmy/levis/households/recursion
+# disallow, foo, /agitated/wedged/stakes/killingly/ideals
+# disallow, foo, /altair/theorizers/shouted/capitals/letterer
+# disallow, foo, /anglicanism/heaved/shove/director/davy/epidemic
+# disallow, foo, /annihilated/gazelle/acrobatics/cloves
+# disallow, foo, /antitoxin/pests/unfair/pilgrim/infection
+# disallow, foo, /arteriolar/alliterate/out/an
+# disallow, foo, /ascendent/sawmill/dormant/advisees
+# disallow, foo, /autopsies/religious
+# disallow, foo, /autosuggestibility/pests/unfair
+# disallow, foo, /avogadro/buildings/penetrations/helmholtz
+# disallow, foo, /backups/religious/solute/covering
+# disallow, foo, /bales/snow/dormant/advisees/appointees
+# disallow, foo, /bessie/lexical/anxieties/subsumes
+# disallow, foo, /bessie/lexical/statistical
+# disallow, foo, /bessie/lexical/vats/difference
+# disallow, foo, /beth/heaved/shove/revisiting/dyes
+# disallow, foo, /bidirectional/fingers/coffees
+# disallow, foo, /biomedicine/moscow
+# disallow, foo, /blasting/solids/bluntest/merganser/trademark/monmouth/mitigating
+# disallow, foo, /bounty/building/tonic/apologizes/nanette
+# disallow, foo, /bowditch/repletion/paragons/unacceptably/steepen/chalet/langley
+# disallow, foo, /braining/gingko/tanker/perspective/asserters/languidness/clinched
+# disallow, foo, /burglars/pocketbook/paragons/unacceptably/erections/looped/humpty
+# disallow, foo, /busied/gmt/articles/sunbonnet
+# disallow, foo, /cackle/alliterate/out/an
+# disallow, foo, /calm/excerpted/allegra
+# disallow, foo, /calm/excerpted/allegra/enlivens/suspension
+# disallow, foo, /calm/excerpted/allegra/escapee/woodward
+# disallow, foo, /calm/excerpted/allegra/neva/engineered
+# disallow, foo, /candidacy/tectonic
+# disallow, foo, /candidacy/tectonic/banishes
+# disallow, foo, /candidacy/tectonic/herr
+# disallow, foo, /candied/womanly/grounding/dieters/propositions/eighty/outvotes
+# disallow, foo, /champions
+# disallow, foo, /champions/requisitions
+# disallow, foo, /champions/ytterbium
+# disallow, foo, /chaperone/episcopal
+# disallow, foo, /circuitously/guelph/tonic/apologizes/accidents
+# disallow, foo, /citric/teamster/sheaves/abounds
+# disallow, foo, /citric/teamster/sheaves/abounds/ellipsoidal
+# disallow, foo, /citric/teamster/sheaves/abounds/endothermic
+# disallow, foo, /classify/kathleen/swaggered/abigail
+# disallow, foo, /clause/felt/articles/debts/tempestuous
+# disallow, foo, /climaxes/succinct/efficient/devising/groundwork/sherry/lyricism
+# disallow, foo, /clumped/spectrophotometer/articles/previews/genera
+# disallow, foo, /commemorate/bolsters/forward/bludgeoning/teethes/bounteously
+# disallow, foo, /commemorate/bubbling/forward/origination/lessening
+# disallow, foo, /commemorate/fargo/forward/causal/corresponding/donkeys
+# disallow, foo, /commemorate/separateness/forward/defeats/twined/lenticular
+# disallow, foo, /computerizes/september/monotonic/marlborough
+# disallow, foo, /connie/pardoned/sated/hesitates/fulcrum/gush/genetically
+# disallow, foo, /copse/hymns/copes/navigators/hoodwinking/benched/enshroud
+# disallow, foo, /copse/hymns/environ/navigators/sloganeer/trains
+# disallow, foo, /copse/hymns/inimitable/navigators/ablaze/answer/cackle
+# disallow, foo, /copse/hymns/wins/navigators/leaning/recorders/ganglion
+# disallow, foo, /corrosive/caterer/dunlop/mellowing
+# disallow, foo, /cortland/committees
+# disallow, foo, /cortland/committees/meld
+# disallow, foo, /cretan/pests/unfair/determinants/wicked
+# disallow, foo, /crystallizes/towering
+# disallow, foo, /crystallizes/towering/concluded/leone
+# disallow, foo, /declarer/kathleen/withal/abigail
+# disallow, foo, /defense/religious/colleges
+# disallow, foo, /deserves/pests/unfair
+# disallow, foo, /discarded/gazelle/agnes/particulate/lifelong
+# disallow, foo, /disputed/episcopal
+# disallow, foo, /divert/largemouth/edited/sidewise/ranter
+# disallow, foo, /divert/largemouth/started
+# disallow, foo, /divert/largemouth/synapses
+# disallow, foo, /ducking/episcopal/nines/rankine
+# disallow, foo, /duma/khan/taxonomy
+# disallow, foo, /duma/khan/taxonomy/herschel
+# disallow, foo, /duma/khan/taxonomy/scarf/communicate
+# disallow, foo, /duma/khan/taxonomy/shirley
+# disallow, foo, /educable/solids/bluntest/merganser/trademark/liz
+# disallow, foo, /enchants/acclamation/flagellate/stray/tumors/zebra
+# disallow, foo, /enchants/amoebas/flagellate/thy/risky/concerted/centralize
+# disallow, foo, /enchants/charitable/flagellate/pro/elinor
+# disallow, foo, /enchants/inseminate/flagellate/starboard/modifies
+# disallow, foo, /eratosthenes/artificialness/recursions
+# disallow, foo, /eratosthenes/artificialness/recursions/cocklebur/summoning
+# disallow, foo, /exemption/episcopal
+# disallow, foo, /facilely/noble/tanker/perspective/bonds
+# disallow, foo, /faery/kathleen/fourteen/abigail
+# disallow, foo, /fascinate/brandish/anachronism/acclimating
+# disallow, foo, /fascinate/brandish/fuses
+# disallow, foo, /fascinate/brandish/joseph/fischbein
+# disallow, foo, /fascinate/brandish/orphaned/manually
+# disallow, foo, /ferociously/pests/unfair
+# disallow, foo, /ferries/broadcastings/articles/alveolus
+# disallow, foo, /firecracker/normalizes/dormant/advisees/occurrences/sorrow
+# disallow, foo, /fireplaces/september/monotonic/flings/waistcoats
+# disallow, foo, /footprint/pests/unfair/memorizing
+# disallow, foo, /foursquare/solidus/paragons/unacceptably/lipscomb/dispatched
+# disallow, foo, /gilbertson/theta/limelight/slanderous
+# disallow, foo, /gilbertson/theta/limelight/slanderous/denton
+# disallow, foo, /glaring/format/headsmen/concerning/lodges/rooftop
+# disallow, foo, /glaring/redisplays/shippers/stealing/ranch
+# disallow, foo, /godmother/covariant/ushers/briefcases/kodak/sailorly
+# disallow, foo, /groove/telegraphed/anarch/abolish/coeditor
+# disallow, foo, /grubs/september/monotonic/columnized
+# disallow, foo, /hating
+# disallow, foo, /hating/flinches/exorcism
+# disallow, foo, /hating/imprudent/shari
+# disallow, foo, /hating/researched
+# disallow, foo, /heron/stave/meteor/kaolinite
+# disallow, foo, /hooves/kathleen/arbitrated/abigail
+# disallow, foo, /humorousness/mildness/sheets
+# disallow, foo, /humorousness/mildness/sheets/paz
+# disallow, foo, /humorousness/mildness/sheets/shopkeep
+# disallow, foo, /hurriedly/grabbings/modification/sources/plainest
+# disallow, foo, /illegally/marin/dormant/advisees/tampa/tucker
+# disallow, foo, /immanent/theorizers/shouted/capitals
+# disallow, foo, /impracticality/permuting/audio/unrecognizable
+# disallow, foo, /indoor/moscow
+# disallow, foo, /infers/covariant/ushers/transept/modus
+# disallow, foo, /instrumentally
+# disallow, foo, /instrumentally/brad
+# disallow, foo, /instrumentally/heuristic/shaved
+# disallow, foo, /instrumentally/homeland/quirt
+# disallow, foo, /intellectuals/fieldwork/humming/indicter/lined/draftsmen
+# disallow, foo, /intellectuals/underbrush/glazes/indicter/dirtiness
+# disallow, foo, /intendant/timex
+# disallow, foo, /juxtaposing/cyclades/dysplasia
+# disallow, foo, /juxtaposing/fellows
+# disallow, foo, /kirk/episcopal/overjoy
+# disallow, foo, /kisses/hitchhikers/hovered/consummated
+# disallow, foo, /kisses/infrequent/wart/wanted
+# disallow, foo, /kisses/leaguers/invertible/kneecap
+# disallow, foo, /kisses/mnemonics/accordion
+# disallow, foo, /leap/rube/awaited/genus
+# disallow, foo, /levee
+# disallow, foo, /levee/slides
+# disallow, foo, /looking/madmen/coffees
+# disallow, foo, /luminous/covariant/ushers/roasting/salvaging/alarmed
+# disallow, foo, /lyricism/freewheel/enumerative/scorpio/melanin/dissimilarities
+# disallow, foo, /lyricism/hecuba/enumerative/scorpio/melanin
+# disallow, foo, /mackerel/carver/awaited/whistling
+# disallow, foo, /mechanical/permuting/burma/gwen
+# disallow, foo, /mew/episcopal/lacing
+# disallow, foo, /motel/coddington/adherent/spoon
+# disallow, foo, /motel/confides/adherent/omits/reformulation
+# disallow, foo, /motel/copybook/adherent/volkswagen/flexure/squint
+# disallow, foo, /motel/cornwall/adherent/encode/scuffling
+# disallow, foo, /motel/printing/adherent/alnico/booboo
+# disallow, foo, /mountaineering/september/monotonic
+# disallow, foo, /muggy/orleans/grapheme/meets/filamentary
+# disallow, foo, /muggy/shapely/grapheme/cayenne
+# disallow, foo, /mulligan/covariant/ushers/composers/hewed/snowier/breveted
+# disallow, foo, /musicals/prevalent
+# disallow, foo, /musicals/prevalent/capacitors
+# disallow, foo, /musicals/prevalent/glues
+# disallow, foo, /nagoya/concession/awaited/constrict
+# disallow, foo, /names/composites/paragons/unacceptably/privacies
+# disallow, foo, /neglects/heaved/shove/archaeological
+# disallow, foo, /newborn/btl/collapses/forgivable/gulp/under
+# disallow, foo, /newborn/definite/harlem/forgivable/joyfully
+# disallow, foo, /newborn/indulged/specifications/forgivable/resolver/samplings/jangle
+# disallow, foo, /newborn/uterine/hexadecimal/forgivable/barest
+# disallow, foo, /newsboy/intruded/anton/annuli/unevenly/bankrupting
+# disallow, foo, /newsboy/intruded/anton/brightness/cornflower
+# disallow, foo, /newsboy/intruded/anton/countries
+# disallow, foo, /newsboy/intruded/anton/enacting/trammel/sapling
+# disallow, foo, /newsboy/intruded/anton/surveys/rates/grounders
+# disallow, foo, /obediences/pests/unfair/shakiness
+# disallow, foo, /odiously/handiness
+# disallow, foo, /odiously/omit
+# disallow, foo, /offered
+# disallow, foo, /offered/might/burke
+# disallow, foo, /offered/servicemen/ephemerides
+# disallow, foo, /ominously/solids/bluntest/merganser/trademark
+# disallow, foo, /omniscient/lighter/washes/bloodline/hesperus/gainesville
+# disallow, foo, /omniscient/lighter/washes/gratis/relieve/neath
+# disallow, foo, /omniscient/lighter/washes/indonesian
+# disallow, foo, /omniscient/lighter/washes/rabbet/woodpeckers/defection
+# disallow, foo, /opium/amounters/fallacies
+# disallow, foo, /opium/amounters/reasoning/wakening
+# disallow, foo, /opium/amounters/vented
+# disallow, foo, /ought/metamorphose
+# disallow, foo, /ought/metamorphose/hornets/benedikt
+# disallow, foo, /ought/metamorphose/sufficient
+# disallow, foo, /outlet/persuader/uranyl/penetrate
+# disallow, foo, /outlet/zounds/uranyl/penetrate
+# disallow, foo, /pager/discoveries/litany
+# disallow, foo, /palindrome/blurt/amputates/ravenous
+# disallow, foo, /palindrome/blurt/hilltop/bask
+# disallow, foo, /paste/curtails/modification/tradition
+# disallow, foo, /pearlstone/liberties
+# disallow, foo, /pearlstone/liberties/tardiness
+# disallow, foo, /pegboard/catholic/eating/luckily
+# disallow, foo, /pegboard/exaggerating
+# disallow, foo, /pegboard/finley/speaking
+# disallow, foo, /pegboard/fritillary/eavesdropped/grasping
+# disallow, foo, /pegboard/hillock
+# disallow, foo, /pegboard/mantles
+# disallow, foo, /pegboard/members
+# disallow, foo, /pegboard/slugging/galloway
+# disallow, foo, /pegboard/stereo/tingles
+# disallow, foo, /pegboard/subfile/instituters/suburbs
+# disallow, foo, /pennies/moscow/republicans/illustrator
+# disallow, foo, /pinches/stave/meteor/hempstead
+# disallow, foo, /playa/jawbreak
+# disallow, foo, /playa/jawbreak/guying
+# disallow, foo, /plushy/pardoned/sated/hesitates/fulcrum/gaping
+# disallow, foo, /practitioners/intransitively/efficient/devising/eclipse/blunt/malnutrition
+# disallow, foo, /preciousness/amanuensis/idiocy/divulged
+# disallow, foo, /preciousness/esplanade/yanked
+# disallow, foo, /preciousness/reproducer/swans/terming
+# disallow, foo, /preciousness/schism
+# disallow, foo, /presumably/clubbed
+# disallow, foo, /presumably/clubbed/escalation
+# disallow, foo, /presumably/clubbed/everglades/becalm
+# disallow, foo, /presuming/salute/beatniks/squabble
+# disallow, foo, /puppets/comparably/repositioning/braining/petroglyph
+# disallow, foo, /puppets/harmless/repositioning
+# disallow, foo, /puppets/squeal/repositioning/transplant/obverse
+# disallow, foo, /radiance/encourages
+# disallow, foo, /radiance/encourages/entrepreneurs/calculation
+# disallow, foo, /radiance/encourages/numbness
+# disallow, foo, /rarest/pests/unfair/carrion
+# disallow, foo, /reexamine/theorizers/shouted/capitals/decommission/winers
+# disallow, foo, /refinements/covariant/ushers/reclassifying/sureties/ascription
+# disallow, foo, /reinvent/stave/meteor/pugh
+# disallow, foo, /rejoins/evaluate/modification/allurement/farmhouse
+# disallow, foo, /relabels/religious/enmity
+# disallow, foo, /resistable/theorizers/shouted/capitals/she
+# disallow, foo, /retain/aspire/amphibology/titular
+# disallow, foo, /retain/aspire/especially
+# disallow, foo, /retrace/perimeter/thermometric/ford/seconded
+# disallow, foo, /retrace/propounded/thermometric/headlines
+# disallow, foo, /rope/attributable/dormant/advisees
+# disallow, foo, /round/motivation/dormant/advisees/multiples/gongs
+# disallow, foo, /sabina/womanly/grounding/endearing/scoot/utilizations/broadcasting
+# disallow, foo, /scepters/episcopal/singingly
+# disallow, foo, /selectivity/covariant/ushers/collapsing/boar
+# disallow, foo, /sensorimotor
+# disallow, foo, /sensorimotor/blossom/convulsion
+# disallow, foo, /sensorimotor/remodeled/huntsman
+# disallow, foo, /sensorimotor/vacancy/columnizing
+# disallow, foo, /shakespearian/loathe/anarch/abolish
+# disallow, foo, /ski/ablates/suspend/measurer/janitor/could/softwood
+# disallow, foo, /ski/appertain/choral/measurer/wavelet/fondle/rein
+# disallow, foo, /ski/carelessly/latching/measurer/propionate/dabbler/sanctioned
+# disallow, foo, /ski/gas/cusps/measurer/quid/tartness
+# disallow, foo, /ski/some/whisker/measurer/equipping/newspapers
+# disallow, foo, /slater/afterward/metabolism/refreshments
+# disallow, foo, /slater/precipitated/cues/microbicidal
+# disallow, foo, /slater/relives/crudeness
+# disallow, foo, /slater/steprelation
+# disallow, foo, /smears/kilogauss/headstrong
+# disallow, foo, /smears/kilogauss/leland
+# disallow, foo, /smears/kilogauss/transept/transitory
+# disallow, foo, /snowier/opting/enjoying/lunar
+# disallow, foo, /snowier/opting/highboy/slit
+# disallow, foo, /snowier/opting/rotor/documentary
+# disallow, foo, /sobriquet/moscow/impressionable
+# disallow, foo, /solemn/acre/mudding/lambert/crests
+# disallow, foo, /solemn/changing/papal/avert/prospection/unisex/taxpayers
+# disallow, foo, /solemn/iteratively/condescend/heterostructure/camellia/clover/deere
+# disallow, foo, /solemn/solicits/disconcerting/deconvolution/parasites/sir/nimbly
+# disallow, foo, /spooning/timex/protected/leniency
+# disallow, foo, /stafford/organizationally/tonic/apologizes/vitro/woke
+# disallow, foo, /stale/fig
+# disallow, foo, /stale/fig/bailing
+# disallow, foo, /stale/fig/melodies
+# disallow, foo, /stale/fig/mosquito/agree
+# disallow, foo, /stale/fig/stranded/catherine
+# disallow, foo, /stern/gloria/decliner
+# disallow, foo, /stern/gloria/stencils
+# disallow, foo, /stouter/alliterate/out/an/tricked
+# disallow, foo, /strung/fellow/lura/washing/workforce/demonstrable
+# disallow, foo, /sykes/pardoned/sated/hesitates/fulcrum
+# disallow, foo, /team/caterer/carbuncle/blaze/voltmeter
+# disallow, foo, /technetium/kidnaps
+# disallow, foo, /technetium/kidnaps/dill
+# disallow, foo, /technetium/kidnaps/perched
+# disallow, foo, /technetium/kidnaps/rouse
+# disallow, foo, /technological/bourgeois/tonic/apologizes/stairway/proclaims
+# disallow, foo, /teethes/bring/prosecuted/retreats/directorate
+# disallow, foo, /teethes/bring/prosecuted/retreats/indictments/nulled/roaring
+# disallow, foo, /teethes/bring/prosecuted/retreats/perpetrating/fleck/depress
+# disallow, foo, /teethes/bring/prosecuted/retreats/substantiated
+# disallow, foo, /termini
+# disallow, foo, /termini/anions
+# disallow, foo, /termini/run
+# disallow, foo, /tracker/corralled
+# disallow, foo, /tracker/corralled/firer/lender
+# disallow, foo, /transatlantic/maturities/paragons/unacceptably/feigned
+# disallow, foo, /transforms/alliterate/out/an/mantles
+# disallow, foo, /treasuries/bacchus/awaited/accreditation
+# disallow, foo, /trumpet/widow/anarch/abolish/orr/inclusiveness
+# disallow, foo, /trustees/moscow
+# disallow, foo, /underestimation/fibrosity/casket/sauerkraut
+# disallow, foo, /underestimation/fibrosity/dunlop/memento/injuries
+# disallow, foo, /underestimation/fibrosity/innermost/puff/microsecond
+# disallow, foo, /underestimation/fibrosity/regularly/harvester/ipecac/twigging
+# disallow, foo, /underestimation/fibrosity/scriptures/misuses
+# disallow, foo, /underestimation/fibrosity/spoilage/shamefully
+# disallow, foo, /unionization/pardoned/sated/hesitates/fulcrum/enforceable/backwardness
+# disallow, foo, /variation/btl/anarch/abolish
+# disallow, foo, /venereal/collectors
+# disallow, foo, /venereal/collectors/meander/adoptive
+# disallow, foo, /viciously/episcopal/names
+# disallow, foo, /visually/september/monotonic/handcuffs
+# disallow, foo, /wares/grossest/industrious/horribleness/visitor
+# disallow, foo, /wares/ieee/benz
+# disallow, foo, /wares/tenure/sanguine/quadruple
+# disallow, foo, /wasteland/flavored/earning
+# disallow, foo, /wasteland/flavored/inaudible/nozzle/flare
+# disallow, foo, /wasteland/flavored/outdoors/hidden
+# disallow, foo, /wasteland/flavored/remembers/rebutted/forgetfulness
+# disallow, foo, /wasteland/flavored/tao
+# disallow, foo, /windmills/outlandish/coffees/ceremonious
+# disallow, foo, /woodlot/crocodilian/ebony/gigavolt/itemize
+# disallow, foo, /wrongdoer/alliterate/out/an/boycotts/intricacies
+
+User-Agent: foo
+Disallow: */*/anarch/abolish
+Disallow: */*/articles
+Disallow: */*/awaited/*
+Disallow: */*/coffees
+Disallow: */*/dormant/advisees
+Disallow: */*/efficient/devising/*
+Disallow: */*/modification
+Disallow: */*/paragons/unacceptably/*
+Disallow: */*/tanker/perspective/*
+Disallow: */*/tonic/apologizes/*
+Disallow: */alliterate/out/an
+Disallow: */buildings/penetrations
+Disallow: */caterer/*
+Disallow: */covariant/ushers/*/*
+Disallow: */crocodilian/ebony
+Disallow: */episcopal
+Disallow: */gazelle/*
+Disallow: */heaved/shove/*
+Disallow: */kathleen/*/abigail
+Disallow: */moscow
+Disallow: */pardoned/sated/hesitates/fulcrum
+Disallow: */permuting
+Disallow: */pests/unfair
+Disallow: */religious
+Disallow: */salute
+Disallow: */september/monotonic
+Disallow: */solids/bluntest/merganser/trademark
+Disallow: */stave/meteor
+Disallow: */theorizers/shouted/capitals
+Disallow: */timex
+Disallow: */womanly/grounding/*/*
+Disallow: /abolition/*/*/earthquake/embarcadero
+Disallow: /adhesive/inconsiderateness/curb
+Disallow: /adverbs/decimating
+Disallow: /advocated
+Disallow: /agitated/*/*/*
+Disallow: /bessie/lexical
+Disallow: /calm/excerpted/allegra
+Disallow: /candidacy/tectonic
+Disallow: /champions
+Disallow: /citric/teamster/sheaves/abounds
+Disallow: /commemorate/*/forward/*
+Disallow: /copse/hymns/*/navigators/*
+Disallow: /cortland/committees
+Disallow: /crystallizes/towering
+Disallow: /dionysian/sinewy/guitars
+Disallow: /divert/largemouth/*
+Disallow: /duma/khan/taxonomy
+Disallow: /enchants/*/flagellate/*/*
+Disallow: /eratosthenes/artificialness/recursions
+Disallow: /fascinate/brandish/*
+Disallow: /gilbertson/theta/limelight/slanderous
+Disallow: /glaring/*/*/*
+Disallow: /hating
+Disallow: /humorousness/mildness/sheets
+Disallow: /instrumentally
+Disallow: /intellectuals/*/*/indicter
+Disallow: /juxtaposing/*
+Disallow: /kisses/*
+Disallow: /levee
+Disallow: /lyricism/*/enumerative/scorpio/melanin
+Disallow: /motel/*/adherent/*
+Disallow: /muggy/*/grapheme/*
+Disallow: /musicals/prevalent
+Disallow: /newborn/*/*/forgivable/*
+Disallow: /newsboy/intruded/anton/*
+Disallow: /odiously/*
+Disallow: /offered
+Disallow: /omniscient/lighter/washes/*
+Disallow: /opium/amounters
+Disallow: /ought/metamorphose
+Disallow: /outlet/*/uranyl/penetrate
+Disallow: /pager/discoveries
+Disallow: /palindrome/blurt
+Disallow: /pearlstone/liberties
+Disallow: /pegboard/*
+Disallow: /playa/jawbreak
+Disallow: /preciousness/*
+Disallow: /presumably/clubbed
+Disallow: /puppets/*/repositioning
+Disallow: /radiance/encourages
+Disallow: /retain/aspire
+Disallow: /retrace/*/thermometric
+Disallow: /sensorimotor
+Disallow: /ski/*/*/measurer/*
+Disallow: /slater/*
+Disallow: /smears/kilogauss
+Disallow: /snowier/opting
+Disallow: /solemn/*/*/*/*
+Disallow: /stale/fig
+Disallow: /stern/gloria
+Disallow: /strung/*/lura/washing/workforce
+Disallow: /technetium/kidnaps
+Disallow: /teethes/bring/prosecuted/retreats/*
+Disallow: /termini
+Disallow: /tracker/corralled
+Disallow: /underestimation/fibrosity/*/*
+Disallow: /venereal/collectors
+Disallow: /wares/*/*
+Disallow: /wasteland/flavored/*

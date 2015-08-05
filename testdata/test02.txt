@@ -1,0 +1,21 @@
+# The path value must start with "/" to designate the root. If not,
+# a beginning slash should be added.
+#
+# allow, foo, /fish
+# allow, foo, /fish.html
+# allow, foo, /Fish/Salmon.asp
+# disallow, foo, /fish/
+# disallow, foo, /fish/?id=anything
+# disallow, foo, /fish/salmon.htm
+#
+# allow, bar, /fish
+# allow, bar, /fish.html
+# allow, bar, /Fish/Salmon.asp
+# disallow, bar, /fish/
+# disallow, bar, /fish/?id=anything
+# disallow, bar, /fish/salmon.htm
+User-Agent: foo
+Disallow: /fish/
+
+User-Agent: bar
+Disallow: fish/

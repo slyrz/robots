@@ -1,0 +1,15 @@
+# Ignore comments and whitespace.
+#
+# allow, foo, /bar
+# disallow, foo, /foo
+#
+# allow, bar, /foo
+# disallow, bar, /bar
+
+# Comment.
+User-agent: foo # Comment.
+Disallow: /foo# Comment.
+# Comment.
+User-agent: bar                # Comment.
+# Comment.
+Disallow:   /bar               # Comment.

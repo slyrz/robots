@@ -1,0 +1,43 @@
+# Trailing wildcards should be ignored.
+#
+# disallow, foo, /
+# disallow, foo, /some/path
+# disallow, foo, /other/path/
+# disallow, foo, /other/path/xyz
+#
+# disallow, bar, /
+# disallow, bar, /some/path
+# disallow, bar, /other/path/
+# disallow, bar, /other/path/xyz
+#
+# allow, baz, /?id=fish
+# allow, baz, /catfish
+# allow, baz, /Fish.asp
+# disallow, baz, /fish
+# disallow, baz, /fish.html
+# disallow, baz, /fish.php?id=anything
+# disallow, baz, /fish/salmon.html
+# disallow, baz, /fishheads
+# disallow, baz, /fishheads/yummy.html
+#
+# allow, qux, /?id=fish
+# allow, qux, /catfish
+# allow, qux, /Fish.asp
+# disallow, qux, /fish
+# disallow, qux, /fish.html
+# disallow, qux, /fish.php?id=anything
+# disallow, qux, /fish/salmon.html
+# disallow, qux, /fishheads
+# disallow, qux, /fishheads/yummy.html
+
+User-Agent: foo
+Disallow: /
+
+User-Agent: bar
+Disallow: /*
+
+User-Agent: baz
+Disallow: /fish
+
+User-Agent: qux
+Disallow: /fish*

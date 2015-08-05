@@ -1,0 +1,24 @@
+# The most specific rule based on the length of the path entry will trump
+# the less specific (shorter) rule.
+#
+# allow, foo, /page
+# disallow, foo, /
+#
+# allow, bar, /folder/page
+# disallow, bar, /folder
+# disallow, bar, /folderpage
+#
+# allow, baz, /
+# disallow, baz, /page.html
+
+User-Agent: foo
+Allow: /p
+Disallow: /
+
+User-Agent: bar
+Allow: /folder/
+Disallow: /folder
+
+User-Agent: baz
+Allow: /$
+Disallow: /

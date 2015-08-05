@@ -1,0 +1,27 @@
+# Test some more complex wildcards.
+#
+# disallow, foo, /a/b/c/foo
+# disallow, foo, /a/b/c/foo_directory
+# disallow, foo, /a/b/c/foo/directory
+# allow, foo, /foo
+# allow, foo, /foo/directory
+# allow, foo, /a/b/foo
+# allow, foo, /a/b/foo/directory
+# disallow, foo, /a/b/bar
+# allow, foo, /a/bar
+# allow, foo, /bar
+# allow, foo, /baz/x
+# allow, foo, /baz/x/y
+# allow, foo, /baz/x/yz
+# disallow, foo, /baz/x/y/
+# disallow, foo, /baz/x/y/z
+# disallow, foo, /path/to/qux
+# disallow, foo, /qux/path/
+# disallow, foo, /nested/qux/path/
+# disallow, foo, /some/path/to/filenamequx.txt
+
+User-Agent: foo
+Disallow: /*/*/*/foo
+Disallow: /*/*/bar
+Disallow: /baz/*/*/
+Disallow: *qux*

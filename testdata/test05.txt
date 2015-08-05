@@ -1,0 +1,10 @@
+# Allow a single robot.
+#
+# allow, foo, /foo
+# disallow, bar, /foo
+
+User-agent: foo
+Disallow:
+
+User-agent: *
+Disallow: /

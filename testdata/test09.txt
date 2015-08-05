@@ -1,0 +1,23 @@
+# Determine the correct group of records by finding the group with the most
+# specific user-agent that still matches.
+#
+# disallow, somebot-special, /foo
+# disallow, somebot, /baz
+# allow, otherbot, /qux
+# disallow, otherbot/0.1, /qux
+# disallow, randombot, /bar
+
+User-Agent: somebot-special
+Disallow: /foo
+
+User-Agent: *
+Disallow: /bar
+
+User-Agent: somebot
+Disallow: /baz
+
+User-Agent: otherbot/0.1
+Disallow: /qux
+
+User-Agent: otherbot
+Disallow:

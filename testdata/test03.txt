@@ -1,0 +1,29 @@
+# Test wildcards.
+#
+# allow, foo, /
+# allow, foo, /windows.PHP
+# disallow, foo, /filename.php
+# disallow, foo, /filename.php/
+# disallow, foo, /folder/any.php.file.html
+# disallow, foo, /folder/filename.php
+# disallow, foo, /folder/filename.php?parameters
+#
+# allow, bar, /filename.php/
+# allow, bar, /filename.php5
+# allow, bar, /filename.php?parameters
+# allow, bar, /windows.PHP
+# disallow, bar, /filename.php
+# disallow, bar, /folder/filename.php
+#
+# allow, baz, /Fish.PHP
+# disallow, baz, /fish.php
+# disallow, baz, /fishheads/catfish.php?parameters
+
+User-Agent: foo
+Disallow: /*.php
+
+User-Agent: bar
+Disallow: /*.php$
+
+User-Agent: baz
+Disallow: /fish*.php

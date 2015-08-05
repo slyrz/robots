@@ -1,0 +1,8 @@
+# Treat field names and user-agents case-insensitive.
+#
+# disallow, foo, /foo
+# disallow, bar, /bar
+USER-AGENT: FOO
+DISALLOW: /foo
+user-agent: BaR
+disallow: /bar

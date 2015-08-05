@@ -1,0 +1,12 @@
+# Allow grouping multilpe user-agents.
+#
+# disallow, foo, /foo
+# disallow, bar, /bar/baz
+# disallow, baz, /bar/baz
+# allow, qux, /foo
+# allow, qux, /bar/baz
+User-Agent: foo
+Disallow: /foo
+User-Agent: bar
+User-Agent: baz
+Disallow: /bar/baz

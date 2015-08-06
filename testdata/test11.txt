@@ -1,0 +1,20 @@
+# Test equality matches.
+#
+# disallow, foo, /foo
+# allow, foo, /foofoo
+# allow, foo, /foo/foo
+# disallow, bar, /bar
+# allow, bar, /barbar
+# allow, bar, /bar/bar
+# disallow, baz, /baz
+# disallow, baz, /bazbaz
+# disallow, baz, /baz/baz
+
+User-Agent: foo
+Disallow: /foo$
+
+User-Agent: bar
+Disallow: bar$
+
+User-Agent: baz
+Disallow: /*baz$

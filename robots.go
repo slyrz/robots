@@ -43,60 +43,75 @@ const (
 type Rule struct {
 	Type    RuleType
 	Length  int
+	Equals  string   // Matches the whole path.
 	Prefix  string   // Matches the start of a path.
 	Suffix  string   // Matches the end of a path.
 	Needles []string // Matches anything inside a path.
 }
 
+// splitPathValue splits a path value into its components separated by
+// wildcards, e.g. it turns "/foo*bar/" into []string{"/foo", "bar/"}.
+// The return value hasPrefix is true if the path value matches a path
+// prefix. The return value hasSuffix is true if the path value matches
+// a path suffix.
+func splitPathValue(value string) (parts []string, hasPrefix bool, hasSuffix bool) {
+	parts = strings.Split(value, "*")
+	// If the first item is "", the rule starts with a wildcard "*", which
+	// means it has no prefix.
+	hasPrefix = parts[0] != ""
+	// If the last item ends with "$", the rule matches a suffix.
+	hasSuffix = strings.HasSuffix(parts[len(parts)-1], "$")
+	// If the prefix does not start with a "/", add one manually.
+	// This conforms to Google's interpretation.
+	if hasPrefix {
+		if parts[0][0] != '/' {
+			parts[0] = "/" + parts[0]
+		}
+	}
+	// If there's a suffix, remove the trailing "$".
+	if hasSuffix {
+		parts[len(parts)-1] = strings.TrimSuffix(parts[len(parts)-1], "$")
+	}
+	return
+}
+
+// cutOff removes the first and last item of array.
+func cutOff(array []string, first, last bool) []string {
+	if len(array) > 0 && first {
+		array = array[1:]
+	}
+	if len(array) > 0 && last {
+		array = array[:len(array)-1]
+	}
+	return array
+}
+
 // NewRule creates a new rule from the value element of an allow/disallow
 // record found in the robots.txt file.
 func NewRule(ruleType RuleType, value string) *Rule {
-	parts := strings.Split(value, "*")
-
-	// If the first item is "", the rule is "*foo" which means it has no
-	// prefix.
-	hasPrefix := parts[0] != ""
-	// If the last item ends with "$", the rule matches a suffix.
-	hasSuffix := strings.HasSuffix(parts[len(parts)-1], "$")
-
 	rule := &Rule{
 		Type:   ruleType,
 		Length: len(value),
 	}
+	parts, hasPrefix, hasSuffix := splitPathValue(value)
 	if hasPrefix {
 		rule.Prefix = parts[0]
-		// If the prefix does not start with a "/", add one manually.
-		// This conforms to Google's interpretation.
-		if rule.Prefix != "" && rule.Prefix[0] != '/' {
-			rule.Prefix = "/" + rule.Prefix
-		}
 	}
 	if hasSuffix {
-		rule.Suffix = strings.TrimSuffix(parts[len(parts)-1], "$")
-		// Special case: if prefix is also the suffix, we have to get rid
-		// of the "$" in the prefix rule as well.
-		if hasPrefix && len(parts) == 1 {
-			rule.Prefix = rule.Suffix
-		}
+		rule.Suffix = parts[len(parts)-1]
 	}
-	// Now remove prefix and suffix from parts. If there's anything left,
-	// it must be the needles.
-	if hasPrefix {
-		parts = parts[1:]
-	}
-	if hasSuffix {
-		// Remember that suffix can be the prefix and parts might already
-		// be empty at this point.
-		if len(parts) > 0 {
-			parts = parts[:len(parts)-1]
-		}
+	// If this is the case, the rule was something like "/foo$" and matches
+	// the whole path.
+	if hasPrefix && hasSuffix && len(parts) == 1 {
+		rule.Equals, rule.Prefix, rule.Suffix = parts[0], "", ""
 	}
 	// After prefix and suffix were removed from the parts array, the
 	// remaining items are the needles that have to be found anywhere
 	// inside the string.
-	for _, part := range parts {
-		if part != "" {
-			rule.Needles = append(rule.Needles, part)
+	needles := cutOff(parts, hasPrefix, hasSuffix)
+	for _, needle := range needles {
+		if needle != "" {
+			rule.Needles = append(rule.Needles, needle)
 		}
 	}
 	return rule
@@ -104,6 +119,9 @@ func NewRule(ruleType RuleType, value string) *Rule {
 
 // Match returns true if the rule matches the given path value.
 func (r *Rule) Match(path string) bool {
+	if r.Equals != "" {
+		return r.Equals == path
+	}
 	if r.Prefix != "" && !strings.HasPrefix(path, r.Prefix) {
 		return false
 	}

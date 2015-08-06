@@ -3,6 +3,7 @@ package robots_test
 import (
 	"bufio"
 	"bytes"
+	"fmt"
 	"github.com/slyrz/robots"
 	"io/ioutil"
 	"os"
@@ -15,6 +16,10 @@ type Test struct {
 	UserAgent string
 	Path      string
 	Allow     bool
+}
+
+func (t *Test) String() string {
+	return fmt.Sprintf("user-agent=%q, path=%q, allow=%v", t.UserAgent, t.Path, t.Allow)
 }
 
 var lineRegex = regexp.MustCompile(`(?i)^#\s*(allow|disallow)\s*,\s*(.*)\s*,\s*(.*)\s*$`)
@@ -61,12 +66,12 @@ func loadTestFile(path string) ([]*Test, []byte, error) {
 }
 
 func runTest(t *testing.T, path string) {
-	t.Logf("running test %s", path)
-
 	tests, data, err := loadTestFile(path)
 	if err != nil {
 		t.Fatal(err)
 	}
+	t.Logf("running file %s: %d tests", path, len(tests))
+
 	userAgents := make(map[string]*robots.Robots)
 	for _, test := range tests {
 		if _, ok := userAgents[test.UserAgent]; !ok {
@@ -74,9 +79,8 @@ func runTest(t *testing.T, path string) {
 		}
 	}
 	for _, test := range tests {
-		t.Logf("user-agent=%q, path=%q, allow=%v", test.UserAgent, test.Path, test.Allow)
 		if userAgents[test.UserAgent].Allow(test.Path) != test.Allow {
-			t.Errorf("expected %v, got %v", test.Allow, !test.Allow)
+			t.Errorf("test %v failed", test)
 		}
 	}
 }
